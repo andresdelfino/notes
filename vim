@@ -1,3 +1,4 @@
+:w !sudo tee % - Guardar sin llamar a sudo primero
 :qa = close all
 
 0 Ir al inicio de la línea
@@ -45,6 +46,10 @@ tabn N - Go to tab N
 tabr - Go to first tab
 tabl - Go to last tab
 tabs - List tabs
+
+q<X>    - comentar a grabar
+q       - Dejar de grabar
+<N>@<X> - Ejecutar
 
 Splitting
 =========
