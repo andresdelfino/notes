@@ -51,6 +51,8 @@ q<X>    - comentar a grabar
 q       - Dejar de grabar
 <N>@<X> - Ejecutar
 
+dG      - borrar desde la línea actual hasta el EOF
+
 Splitting
 =========
 
