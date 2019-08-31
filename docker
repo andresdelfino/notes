@@ -8,4 +8,5 @@ docker exec -ti ubuntu-test bash
 
 --
 
+docker run -it -v /home/adelfino/resources:/resources getsc:first
 docker run -it --mount type=bind,source=/home/adelfino/resources,target=/resources getsc:first
