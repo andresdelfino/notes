@@ -1,0 +1,2 @@
+Find the first/last commit a file contained a string
+git log -S NoneType Lib/types.py
