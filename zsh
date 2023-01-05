@@ -9,3 +9,6 @@ kill-whole-line
 
 push-line
 ^Q
+
+undo
+^_
