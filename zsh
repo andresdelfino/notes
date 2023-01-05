@@ -1,6 +1,12 @@
 undo
 ^_
 
+kill-line
+^K
+
+backward-kill-line
+?
+
 history-incremental-search-backward
 ^R
 
