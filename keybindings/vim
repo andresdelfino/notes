@@ -42,9 +42,11 @@ N Move to previous ocurrence
 
 % Search for matching symbol
 
-q<X> Start recording
+qR Start recording on register R
 q Stop recording
-<N>@<X> Execute recording
+@R Execute recording on register R
+@@ Repeat last executed recording
+N@R Execute recording on register R N times
 
 tabc Close tab
 tabo Close other tabs
