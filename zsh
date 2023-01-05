@@ -1,4 +1,10 @@
-wd-i-search
+undo
+^_
+
+history-incremental-search-backward
+^R
+
+history-incremental-search-forward
 ^S
 
 clear-screen
@@ -9,6 +15,3 @@ kill-whole-line
 
 push-line
 ^Q
-
-undo
-^_
