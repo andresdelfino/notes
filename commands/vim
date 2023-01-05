@@ -1,0 +1,8 @@
+Open files in tabs
+vim -p
+
+Open files horizontally
+vim -o file ...
+
+Open files vertically
+vim -O file ...

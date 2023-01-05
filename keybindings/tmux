@@ -1,0 +1,14 @@
+Ctrl + B, " - pane split up down
+Ctrl + B, % - pane split left right
+Ctrl + B, x - pane kill
+
+Ctrl + B, ; - pane go previous
+Ctrl + B, q - pane index show
+Ctrl + B, z - pane zoom
+
+Ctrl + B, C - window create
+Ctrl + B, & - window kill
+
+Ctrl + B, l - window go previous
+Ctrl + B, N - window go N
+Ctrl + B, f - window find 

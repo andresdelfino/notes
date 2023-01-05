@@ -1,0 +1,66 @@
+:w !sudo tee % - Save when vim was not run with sudo
+:!subl % - Open file in another program
+:e! Reload file
+:qa Close all
+:q! Close without saving
+:wq Save and close
+
+0 Go to start of line
+^ Go to first non-white character of line
+$ Go to end of line
+
+NG Go to line N
+G Go to EOF
+
+O Insert line above
+o Insert line below
+
+I Start insertion at start of line
+A Start insertion at end of line
+
+i Start insertion where cursor is
+a Start insertion at the next character where cursor is
+
+x Delete character
+X Delete previous character
+
+r Overwrite character
+R Start overwriting
+
+dd Delete line
+J Join lines
+
+dNG Delete from current line to line N (included)
+dG Delete from current line to EOF
+
+u Undo
+
+/ Search forward
+? Search backward
+n Move to next ocurrence
+N Move to previous ocurrence
+
+% Search for matching symbol
+
+q<X> Start recording
+q Stop recording
+<N>@<X> Execute recording
+
+tabc Close tab
+tabo Close other tabs
+tabr Go to first tab
+tabl Go to last tab
+tabs List tabs
+
+tabe file - Open tab
+tabn N - Go to tab N
+
+Ctrl + W, S - Split horizontally
+Ctrl + W, V - Split vertically
+
+Ctrl + W, N - Split horizontally, opening a new file
+
+Ctrl + W, (H|J|K|L) - Move to frame
+
+Ctrl + W, N(<|>) - Change frame width by N characters
+Ctrl + W, N(+|-) - Change frame height by N characters

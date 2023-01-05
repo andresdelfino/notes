@@ -1,0 +1,8 @@
+^_ undo
+^K kill-line
+? backward-kill-line
+^R history-incremental-search-backward
+^S history-incremental-search-forward
+^L clear-screen
+^U kill-whole-line
+^Q push-line

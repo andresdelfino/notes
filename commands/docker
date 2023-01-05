@@ -1,12 +1,6 @@
-docker pull ubuntu:18.10
 docker create -it --name ubuntu-test ubuntu:18.10
 
 docker start ubuntu-test -i
-
 docker start ubuntu-test
-docker exec -ti ubuntu-test bash
 
---
-
-docker run -it -v /home/adelfino/resources:/resources getsc:first
 docker run -it --mount type=bind,source=/home/adelfino/resources,target=/resources getsc:first
