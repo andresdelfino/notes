@@ -1,0 +1,2 @@
+Search in all history
+fc -lm '*' 1
