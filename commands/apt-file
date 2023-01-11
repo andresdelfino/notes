@@ -1,0 +1,6 @@
+Find which files will be installed by a package:
+apt-file update (as root)
+apt-file list $package
+
+Find which package provides a file that is not currently on your system:
+apt-file search /path/to/file

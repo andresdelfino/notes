@@ -1,0 +1,5 @@
+Find which files were installed by a package:
+dpkg -L $package
+
+Find which package provides a file that is already on your system:
+dpkg -S /path/to/file
