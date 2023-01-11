@@ -1,4 +1,8 @@
 b Go to previous screen
 < Go to start
 > Go to end
+
+? Search backward
+/ Search forward
+
 -I Toggle case insensitive search
