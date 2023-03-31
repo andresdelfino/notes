@@ -1,0 +1,2 @@
+Print subtree
+pid=; ps -f --forest -p $(pstree -p $pid | grep -o '([0-9]\+)' | grep -o '[0-9]\+' | tr '\n' ,)$pid
