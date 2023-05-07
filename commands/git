@@ -1,8 +1,8 @@
 Find the first/last commit a file contained a string
-git log -S string filepath
+git log -S $string $filepath
 
 Find the first/last commit a file existed
 git log --diff-filter=A -- '*filename*'
 
 Undo changes in the working tree interactively
-git checkout --patch filepath
+git checkout --patch $filepath

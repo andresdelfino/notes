@@ -1,5 +1,6 @@
 :w !sudo tee % - Save when vim was not run with sudo
 :!subl % - Open file in another program
+:e Open file
 :e! Reload file
 :qa Close all
 :q! Close without saving
@@ -57,12 +58,12 @@ tabs List tabs
 tabe file - Open tab
 tabn N - Go to tab N
 
-Ctrl + W, S - Split horizontally
-Ctrl + W, V - Split vertically
+^W, S - Split horizontally
+^W, V - Split vertically
 
-Ctrl + W, N - Split horizontally, opening a new file
+^W, N - Split horizontally, opening a new file
 
-Ctrl + W, (H|J|K|L) - Move to frame
+^W, (H|J|K|L) - Move to frame
 
-Ctrl + W, N(<|>) - Change frame width by N characters
-Ctrl + W, N(+|-) - Change frame height by N characters
+^W, N(<|>) - Change frame width by N characters
+^W, N(+|-) - Change frame height by N characters

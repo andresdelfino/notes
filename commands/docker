@@ -1,6 +1,1 @@
-docker container create -it --name ubuntu-test ubuntu:18.10
-
-docker container start ubuntu-test
-docker container start -i ubuntu-test
-
 docker run -it --mount type=bind,source=/home/adelfino/resources,target=/resources getsc:first

@@ -1,14 +1,14 @@
-Ctrl + B, " - pane split up down
-Ctrl + B, % - pane split left right
-Ctrl + B, x - pane kill
+^B, " - pane split up down
+^B, % - pane split left right
+^B, x - pane kill
 
-Ctrl + B, ; - pane go previous
-Ctrl + B, q - pane index show
-Ctrl + B, z - pane zoom
+^B, ; - pane go previous
+^B, q - pane index show
+^B, z - pane zoom
 
-Ctrl + B, C - window create
-Ctrl + B, & - window kill
+^B, C - window create
+^B, & - window kill
 
-Ctrl + B, l - window go previous
-Ctrl + B, N - window go N
-Ctrl + B, f - window find 
+^B, l - window go previous
+^B, N - window go N
+^B, f - window find 
