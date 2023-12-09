@@ -1,2 +1,5 @@
 Extract first frame
 ffmpeg -i $input_filepath -vf "select=eq(n\,0)" -q:v 1 $output_filepath
+
+Convert to WhatsApp compatible format
+ffmpeg -i $input_filepath -vcodec libx264 -acodec aac $output_filepath
